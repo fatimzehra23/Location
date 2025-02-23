@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.Authentification">
+
+    <!-- Layout Connexion -->
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/etLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Mot de passe"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/authButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Authentification"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/acchButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Créer Compte"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <!-- Layout Inscription -->
+    <LinearLayout
+        android:id="@+id/Layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/nomEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Nom"/>
+
+        <EditText
+            android:id="@+id/prenomEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Prénom"/>
+
+        <EditText
+            android:id="@+id/nysEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Pays"/>
+
+        <EditText
+            android:id="@+id/villeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:hint="Ville"/>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:inputType="phone"
+            android:hint="Téléphone"/>
+
+        <!-- Email pour inscription -->
+        <EditText
+            android:id="@+id/nemsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+
+        <!-- Mot de passe pour inscription -->
+        <EditText
+            android:id="@+id/pwdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:hint="Mot de passe"/>
+
+        <Button
+            android:id="@+id/confirmeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Confirmer"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/annulerButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Annuler"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

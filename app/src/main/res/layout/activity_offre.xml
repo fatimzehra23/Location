@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre de l'offre"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix (en MAD)"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter l'offre"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
