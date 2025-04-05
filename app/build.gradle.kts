@@ -44,6 +44,8 @@ dependencies {
     // Ajouter Firestore et Auth sans spécifier de version
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-firestore")
+    implementation ("com.google.firebase:firebase-storage:20.3.0") // Vérifie la dernière version ici : https://firebase.google.com/docs/android/setup
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
